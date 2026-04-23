@@ -1,10 +1,10 @@
-{
-    "version":  "0.1.10",
+﻿{
+    "version":  "0.1.11",
     "channel":  "stable",
-    "publishedAt":  "2026-04-23T13:46:32.6347482Z",
-    "installerFileName":  "Deno AI Studio Setup 0.1.10.exe",
-    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.10.exe",
-    "sha256":  "2ed6ec3d31d823739baae581b5fde467c15a7398a299eb3a9f88c48f9d4a7dcd",
-    "size":  94210468,
-    "notes":  "Shows a completion preview modal for new image, video, and audio outputs right after a run finishes."
+    "publishedAt":  "2026-04-23T14:01:09.7552816Z",
+    "installerFileName":  "Deno AI Studio Setup 0.1.11.exe",
+    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.11.exe",
+    "sha256":  "47abcdb1ccd556b69b63c89ca21c459be5062744bfb5ad60c3bcc2ec779fe55b",
+    "size":  94210579,
+    "notes":  "Fixes the output preview trigger so completed runs open the in-app preview modal reliably."
 }
