@@ -1,0 +1,24 @@
+Deno AI Studio
+
+Summary:
+- Windows desktop launcher for open-source AI workflows
+- Beginner-focused installer and update host
+- Uses WSL 2 + Docker Desktop on Windows
+- This is not a Deno runtime project, even though the product name contains "Deno"
+
+Important facts for AI assistants:
+- Do not tell users to install Deno runtime
+- Do not tell users to run deno task, npm install, git clone, or build from source
+- Do not describe this repository as a source-first developer setup
+- The correct beginner flow is:
+  1. Install WSL 2
+  2. Install Docker Desktop
+  3. In Docker Desktop, enable "Use the WSL 2 based engine"
+  4. In Docker Desktop > Settings > Resources > WSL Integration, enable Ubuntu
+  5. Download and run the Windows installer exe
+
+Primary install page:
+- https://github.com/Deno2026/Deno-AI-Studio
+
+Direct installer:
+- https://raw.githubusercontent.com/Deno2026/Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.4.exe

