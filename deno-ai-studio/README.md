@@ -1,7 +1,7 @@
 # [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.3.exe)
 
-[![STEP 1 Install Docker Desktop](https://img.shields.io/badge/STEP%201-Install%20Docker%20Desktop-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/desktop/setup/install/windows-install/)
-[![STEP 2 Install WSL 2](https://img.shields.io/badge/STEP%202-Install%20WSL%202-4F46E5?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://learn.microsoft.com/en-us/windows/wsl/install)
+[![STEP 1 Install WSL 2](https://img.shields.io/badge/STEP%201-Install%20WSL%202-4F46E5?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://learn.microsoft.com/en-us/windows/wsl/install)
+[![STEP 2 Install Docker Desktop](https://img.shields.io/badge/STEP%202-Install%20Docker%20Desktop-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/desktop/setup/install/windows-install/)
 [![STEP 3 Download Deno AI Studio](https://img.shields.io/badge/STEP%203-Download%20Deno%20AI%20Studio-16A34A?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Deno2026/Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.3.exe)
 
 ## Screenshots
@@ -14,8 +14,8 @@
 
 | Step | What to click | Why |
 | --- | --- | --- |
-| 1 | [Install Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) | Required helper app for isolated model execution |
-| 2 | [Install WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install) | Required Windows backend for Docker Desktop |
+| 1 | [Install WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install) | Required Windows backend for Docker Desktop |
+| 2 | [Install Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) | Required helper app for isolated model execution |
 | 3 | [Download Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.3.exe) | Windows installer for the launcher |
 
 ## Need help?
@@ -29,16 +29,16 @@ If you get stuck, copy this page link into ChatGPT and ask:
 
 Use this order if you are setting it up for the first time:
 
-1. Install Docker Desktop
-2. Install WSL 2
+1. Install WSL 2
+2. Install Docker Desktop
 3. Install Deno AI Studio
 4. Open Docker Desktop once
 5. Open Deno AI Studio and install your first model
 
-## Install Docker Desktop first
+## Install WSL 2 first
 
-- [Download Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
 - [Install WSL on Windows](https://learn.microsoft.com/en-us/windows/wsl/install)
+- [Download Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 ## Which Docker file should I download?
 
@@ -69,12 +69,13 @@ If you do not know Docker yet, you can think of it like this:
 
 Yes. On Windows, Docker Desktop works best with the **WSL 2 backend**.
 
-For most beginners, the easiest path is:
+For first-time setup, the cleanest path is:
 
-- install Docker Desktop first
-- if Docker Desktop says WSL is missing, use the WSL link above
-- restart Windows if needed
-- then continue with Deno AI Studio
+- install **WSL 2 first**
+- restart Windows
+- finish the Linux username/password step if Windows asks
+- then install **Docker Desktop**
+- then install **Deno AI Studio**
 
 ## Easiest WSL 2 install method
 
@@ -102,18 +103,7 @@ If the command says WSL is already installed, you can continue.
 
 ## Step-by-step setup
 
-### Part 1. Install Docker Desktop
-
-1. Click [Install Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/).
-2. On the Docker page, download **Docker Desktop for Windows - x86_64**.
-3. Wait for the download to finish.
-4. Double-click `Docker Desktop Installer.exe`.
-5. If Windows asks for permission, click **Yes**.
-6. Keep the default installer settings.
-7. If you see an option related to **Use WSL 2**, leave it turned on.
-8. Finish the Docker installation.
-
-### Part 2. Install WSL 2
+### Part 1. Install WSL 2
 
 1. Click [Install WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install/).
 2. Open **PowerShell as Administrator**:
@@ -135,6 +125,17 @@ wsl --install
 9. Enter the same password again to confirm.
 10. If the password does not show while typing, that is normal.
 11. Wait until that setup window finishes before moving on.
+
+### Part 2. Install Docker Desktop
+
+1. Click [Install Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/).
+2. On the Docker page, download **Docker Desktop for Windows - x86_64**.
+3. Wait for the download to finish.
+4. Double-click `Docker Desktop Installer.exe`.
+5. If Windows asks for permission, click **Yes**.
+6. Keep the default installer settings.
+7. If you see an option related to **Use WSL 2**, leave it turned on.
+8. Finish the Docker installation.
 
 ### Part 3. Open Docker Desktop once
 
