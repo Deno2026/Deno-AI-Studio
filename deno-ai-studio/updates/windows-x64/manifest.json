@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.7",
+    "version":  "0.1.8",
     "channel":  "stable",
-    "publishedAt":  "2026-04-23T12:10:00.0000000Z",
-    "installerFileName":  "Deno AI Studio Setup 0.1.7.exe",
-    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.7.exe",
-    "sha256":  "9ab78ec2cddc557c383766b740788b24273a284c1776a73fefabb2d467848c3a",
-    "size":  94205613,
-    "notes":  "Test build for startup update prompt verification."
+    "publishedAt":  "2026-04-23T13:18:47.1763370Z",
+    "installerFileName":  "Deno AI Studio Setup 0.1.8.exe",
+    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.8.exe",
+    "sha256":  "4ceee18e8cd50ed1376173f837afdb2f250e986035b0faa1951d2ca37f5a176f",
+    "size":  94206940,
+    "notes":  "Adds an in-app update modal, clearer install wording, and a sidebar date/version footer."
 }
