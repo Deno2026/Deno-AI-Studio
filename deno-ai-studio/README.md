@@ -131,3 +131,8 @@ wsl --install
 4. Add files only when the model requires them.
 5. Click **Run**.
 6. Open the output folder from inside the app after the run is finished.
+
+## What it is
+
+Deno AI Studio is a Windows desktop launcher for open-source AI workflows.  
+It is designed to make model installation, execution, input-file handling, and cleanup easier without relying on a terminal-first flow.

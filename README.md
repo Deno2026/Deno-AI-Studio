@@ -1,7 +1,5 @@
 # [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Workflow/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.3.exe)
 
-This repository hosts the public Windows installer and update manifest for **Deno AI Studio**.
-
 ## Quick start
 
 | Step | What to click | Why |
@@ -20,10 +18,7 @@ If this is your first time, use this exact order:
 4. Open Docker Desktop once
 5. Open Deno AI Studio and install your first model
 
-## What it is
-
-Deno AI Studio is a Windows desktop launcher for open-source AI workflows.  
-It is designed to make model installation, execution, input-file handling, and cleanup easier without relying on a terminal-first flow.
+This repository hosts the public Windows installer and update manifest for **Deno AI Studio**.
 
 ## Before you install
 
@@ -138,6 +133,11 @@ wsl --install
 3. Add input files only if the selected model requires them.
 4. Click **Run**.
 5. Open the output folder from inside the app when the run is finished.
+
+## What it is
+
+Deno AI Studio is a Windows desktop launcher for open-source AI workflows.  
+It is designed to make model installation, execution, input-file handling, and cleanup easier without relying on a terminal-first flow.
 
 ## Current included model support
 
