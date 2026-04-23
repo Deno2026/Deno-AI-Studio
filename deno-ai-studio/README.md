@@ -18,6 +18,13 @@
 | 2 | [Install WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install) | Required Windows backend for Docker Desktop |
 | 3 | [Download Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.3.exe) | Windows installer for the launcher |
 
+## Need help?
+
+If you get stuck, copy this page link into ChatGPT and ask:
+
+- `Please explain this installation page step by step in my language.`
+- `Please help me install Docker Desktop, WSL 2, and Deno AI Studio one step at a time.`
+
 ## Beginner install guide
 
 Use this order if you are setting it up for the first time:
@@ -84,7 +91,12 @@ wsl --install
 
 7. Wait until Windows finishes the setup
 8. Restart Windows if asked
-9. Open Docker Desktop again after the restart
+9. After restarting, Windows may open a terminal window and ask you to create a default Unix user account
+10. Type the username you want and press `Enter`
+11. Type a password and press `Enter`
+12. Type the same password again and press `Enter`
+13. If the password box looks blank while you type, that is normal
+14. Open Docker Desktop again after that setup finishes
 
 If the command says WSL is already installed, you can continue.
 
@@ -117,6 +129,12 @@ wsl --install
 
 4. Wait until Windows finishes the installation.
 5. Restart Windows if asked.
+6. After the restart, Windows may open a terminal window asking you to create a default Unix user account.
+7. Enter a username and press `Enter`.
+8. Enter a password and press `Enter`.
+9. Enter the same password again to confirm.
+10. If the password does not show while typing, that is normal.
+11. Wait until that setup window finishes before moving on.
 
 ### Part 3. Open Docker Desktop once
 
