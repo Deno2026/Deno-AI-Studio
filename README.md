@@ -55,24 +55,25 @@ Fast answer modes may guess from the repository name and incorrectly tell you to
 Copy and paste this prompt:
 
 ```text
-寃??湲곕뒫??諛섎뱶??耳??곹깭濡??꾨옒 GitHub ?섏씠吏瑜??ㅼ젣濡??댁뼱 ?쎄퀬 ?듬???二쇱꽭??
+검색 기능(웹 검색/브라우징/Gemini with Google Search)을 반드시 켠 상태에서 아래 GitHub 페이지를 실제로 열어 읽고 안내해 주세요.
 
 URL:
 https://github.com/Deno2026/Windows-Installer-for-Deno-AI-Studio
 
-???珥덈낫?먯엯?덈떎. ????μ냼媛 Deno ?고????꾨줈?앺듃?몄?, Windows ?ㅼ튂???깆씤吏 癒쇱? ?뺤씤????README? INSTALL.md 湲곗??쇰줈 ?ㅼ튂 諛⑸쾿???쒓뎅?대줈 ?④퀎蹂??덈궡??二쇱꽭??
+저는 초보자입니다. 이 저장소가 Deno 런타임 프로젝트인지, Windows 설치 프로그램 배포 페이지인지 먼저 확인한 뒤, README.md 내용을 기준으로 설치 방법을 한국어로 단계별로 안내해 주세요.
 
-以묒슂 洹쒖튃:
-- ?쒕ぉ留?蹂닿퀬 異붾줎?섏? 留먭퀬 GitHub ?섏씠吏 ?댁슜???ㅼ젣濡??쎌뼱 二쇱꽭??
-- deno runtime ?ㅼ튂, git clone, npm install, deno task, source build ?덈궡瑜??섏? 留덉꽭??
-- WSL 紐낅졊? 諛섎뱶??`wsl --install -d Ubuntu`濡??덈궡??二쇱꽭??
-- WSL怨?Ubuntu媛 ?ㅻⅨ 寃껋엫??珥덈낫?먮룄 ?댄빐?섍쾶 ?ㅻ챸??二쇱꽭??
-- Ubuntu 怨꾩젙/鍮꾨?踰덊샇 ?앹꽦 ?붾㈃???⑤뒗 寃쎌슦? ???⑤뒗 寃쎌슦瑜??섎닠 ?ㅻ챸??二쇱꽭??
-- Docker Desktop? Windows x86_64 踰꾩쟾??諛쏅룄濡??덈궡??二쇱꽭??
-- Docker Desktop Settings > Resources > WSL Integration?먯꽌 Ubuntu瑜?耳쒖빞 ?쒕떎怨??덈궡??二쇱꽭??
-- ?ㅼ튂 ?뚯씪? README???꾩옱 ?ㅼ슫濡쒕뱶 踰꾪듉 ?먮뒗 ?꾩옱 留곹겕瑜??ъ슜?섎씪怨??덈궡??二쇱꽭??
-- ?덉쟾 ?ㅼ튂 ?뚯씪 踰꾩쟾 踰덊샇瑜?異붿륫?댁꽌 留먰븯吏 留덉꽭??
-- ?ъ슜?먭? 留됲엳硫?PowerShell?먯꽌 `wsl -l -v` 寃곌낵瑜?遺숈뿬?ｌ쑝?쇨퀬 ?덈궡??二쇱꽭??
+중요 규칙:
+- 제목만 보고 추측하지 말고 GitHub 페이지 내용을 실제로 읽어 주세요.
+- deno runtime 설치, git clone, npm install, deno task, source build 안내를 하지 마세요.
+- 설치 순서는 WSL 2 + Ubuntu, Docker Desktop, Deno AI Studio Windows 설치 파일 순서입니다.
+- WSL 명령은 `wsl --install -d Ubuntu`로 안내해 주세요.
+- WSL과 Ubuntu가 다른 것임을 초보자도 이해하게 설명해 주세요.
+- Ubuntu 계정 이름과 비밀번호 생성 화면이 뜨는 경우와 안 뜨는 경우를 모두 설명해 주세요.
+- Docker Desktop은 Windows x86_64 버전을 받도록 안내해 주세요.
+- Docker Desktop Settings > Resources > WSL Integration에서 Ubuntu를 켜야 한다고 안내해 주세요.
+- 설치 파일은 README의 현재 다운로드 버튼 또는 현재 링크를 사용하라고 안내해 주세요.
+- 오래된 설치 파일 버전 번호를 추측해서 말하지 마세요.
+- 사용자가 막히면 PowerShell에서 `wsl -l -v` 결과를 붙여 넣으라고 안내해 주세요.
 ```
 
 ## Screenshots
