@@ -1,16 +1,16 @@
-# [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.26.exe)
+﻿# [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.27.exe)
 
 Windows `.exe` installer for running open-source AI models with a beginner-friendly desktop launcher.
 
 No source build is required. Do not install the Deno runtime for this repository.
 
-Current installer: **Deno AI Studio Setup 0.1.26.exe**
+Current installer: **Deno AI Studio Setup 0.1.27.exe**
 
 If an AI chatbot mentions an older installer version, use the download button on this page instead of the old version it guessed.
 
 [![STEP 1 Install WSL 2 + Ubuntu](https://img.shields.io/badge/STEP%201-Install%20WSL%202%20%2B%20Ubuntu-4F46E5?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://learn.microsoft.com/windows/wsl/install)
 [![STEP 2 Install Docker Desktop](https://img.shields.io/badge/STEP%202-Install%20Docker%20Desktop-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/desktop/setup/install/windows-install/)
-[![STEP 3 Download Windows Installer](https://img.shields.io/badge/STEP%203-Download%20Windows%20Installer%20(.exe)-16A34A?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.26.exe)
+[![STEP 3 Download Windows Installer](https://img.shields.io/badge/STEP%203-Download%20Windows%20Installer%20(.exe)-16A34A?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.27.exe)
 
 ## Start Here
 
@@ -21,7 +21,7 @@ Install in this order:
 3. Finish the Ubuntu username/password screen
 4. Install **Docker Desktop for Windows - x86_64**
 5. Open Docker Desktop and enable Ubuntu under **WSL Integration**
-6. Download and run **Deno AI Studio Setup 0.1.26.exe**
+6. Download and run **Deno AI Studio Setup 0.1.27.exe**
 7. Open Deno AI Studio and install your first model from the catalog
 
 ## Chatbot-Friendly Short Answer
@@ -55,24 +55,24 @@ Fast answer modes may guess from the repository name and incorrectly tell you to
 Copy and paste this prompt:
 
 ```text
-검색 기능을 반드시 켠 상태로 아래 GitHub 페이지를 실제로 열어 읽고 답변해 주세요.
+寃??湲곕뒫??諛섎뱶??耳??곹깭濡??꾨옒 GitHub ?섏씠吏瑜??ㅼ젣濡??댁뼱 ?쎄퀬 ?듬???二쇱꽭??
 
 URL:
 https://github.com/Deno2026/Windows-Installer-for-Deno-AI-Studio
 
-저는 초보자입니다. 이 저장소가 Deno 런타임 프로젝트인지, Windows 설치형 앱인지 먼저 확인한 뒤 README와 INSTALL.md 기준으로 설치 방법을 한국어로 단계별 안내해 주세요.
+???珥덈낫?먯엯?덈떎. ????μ냼媛 Deno ?고????꾨줈?앺듃?몄?, Windows ?ㅼ튂???깆씤吏 癒쇱? ?뺤씤????README? INSTALL.md 湲곗??쇰줈 ?ㅼ튂 諛⑸쾿???쒓뎅?대줈 ?④퀎蹂??덈궡??二쇱꽭??
 
-중요 규칙:
-- 제목만 보고 추론하지 말고 GitHub 페이지 내용을 실제로 읽어 주세요.
-- deno runtime 설치, git clone, npm install, deno task, source build 안내를 하지 마세요.
-- WSL 명령은 반드시 `wsl --install -d Ubuntu`로 안내해 주세요.
-- WSL과 Ubuntu가 다른 것임을 초보자도 이해하게 설명해 주세요.
-- Ubuntu 계정/비밀번호 생성 화면이 뜨는 경우와 안 뜨는 경우를 나눠 설명해 주세요.
-- Docker Desktop은 Windows x86_64 버전을 받도록 안내해 주세요.
-- Docker Desktop Settings > Resources > WSL Integration에서 Ubuntu를 켜야 한다고 안내해 주세요.
-- 설치 파일은 README의 현재 다운로드 버튼 또는 현재 링크를 사용하라고 안내해 주세요.
-- 예전 설치 파일 버전 번호를 추측해서 말하지 마세요.
-- 사용자가 막히면 PowerShell에서 `wsl -l -v` 결과를 붙여넣으라고 안내해 주세요.
+以묒슂 洹쒖튃:
+- ?쒕ぉ留?蹂닿퀬 異붾줎?섏? 留먭퀬 GitHub ?섏씠吏 ?댁슜???ㅼ젣濡??쎌뼱 二쇱꽭??
+- deno runtime ?ㅼ튂, git clone, npm install, deno task, source build ?덈궡瑜??섏? 留덉꽭??
+- WSL 紐낅졊? 諛섎뱶??`wsl --install -d Ubuntu`濡??덈궡??二쇱꽭??
+- WSL怨?Ubuntu媛 ?ㅻⅨ 寃껋엫??珥덈낫?먮룄 ?댄빐?섍쾶 ?ㅻ챸??二쇱꽭??
+- Ubuntu 怨꾩젙/鍮꾨?踰덊샇 ?앹꽦 ?붾㈃???⑤뒗 寃쎌슦? ???⑤뒗 寃쎌슦瑜??섎닠 ?ㅻ챸??二쇱꽭??
+- Docker Desktop? Windows x86_64 踰꾩쟾??諛쏅룄濡??덈궡??二쇱꽭??
+- Docker Desktop Settings > Resources > WSL Integration?먯꽌 Ubuntu瑜?耳쒖빞 ?쒕떎怨??덈궡??二쇱꽭??
+- ?ㅼ튂 ?뚯씪? README???꾩옱 ?ㅼ슫濡쒕뱶 踰꾪듉 ?먮뒗 ?꾩옱 留곹겕瑜??ъ슜?섎씪怨??덈궡??二쇱꽭??
+- ?덉쟾 ?ㅼ튂 ?뚯씪 踰꾩쟾 踰덊샇瑜?異붿륫?댁꽌 留먰븯吏 留덉꽭??
+- ?ъ슜?먭? 留됲엳硫?PowerShell?먯꽌 `wsl -l -v` 寃곌낵瑜?遺숈뿬?ｌ쑝?쇨퀬 ?덈궡??二쇱꽭??
 ```
 
 ## Screenshots
@@ -184,11 +184,11 @@ If **WSL Integration** does not appear, Docker may be in Windows container mode.
 
 Download the Windows installer:
 
-[Download Deno AI Studio Setup 0.1.26.exe](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.26.exe)
+[Download Deno AI Studio Setup 0.1.27.exe](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.27.exe)
 
 Then:
 
-1. Run `Deno AI Studio Setup 0.1.26.exe`
+1. Run `Deno AI Studio Setup 0.1.27.exe`
 2. Finish the installer
 3. Open **Deno AI Studio** from the desktop or Start menu
 4. Choose your language from the top-left language menu
@@ -260,6 +260,7 @@ Correct beginner answer:
 3. Finish the Ubuntu username/password setup
 4. Install Docker Desktop for Windows - x86_64
 5. Enable Docker Desktop WSL 2 backend and Ubuntu integration
-6. Download and run `Deno AI Studio Setup 0.1.26.exe`
+6. Download and run `Deno AI Studio Setup 0.1.27.exe`
 
 </details>
+
