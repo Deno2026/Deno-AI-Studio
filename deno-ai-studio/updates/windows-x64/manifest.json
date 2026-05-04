@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.39",
+    "version":  "0.1.40",
     "channel":  "stable",
-    "publishedAt":  "2026-05-04T21:56:41.9806346Z",
-    "installerFileName":  "Deno AI Studio Setup 0.1.39.exe",
-    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.39.exe",
-    "sha256":  "9e0abaa01857fa1196f6892e7a6c61b1b4a42fd6934f9fda5067fc9442609758",
-    "size":  94274761,
-    "notes":  "Adds a step-by-step Hugging Face token guide with direct token/model page links, and improves the HeartMuLa Tips modal so long tag examples wrap safely and recommended time values are shown in seconds."
+    "publishedAt":  "2026-05-04T22:20:48.8886750Z",
+    "installerFileName":  "Deno AI Studio Setup 0.1.40.exe",
+    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.40.exe",
+    "sha256":  "27e5a846513d2015740065988fa8c346b9090c6825b8ba3a7f1bdf974f2c1ef6",
+    "size":  94276829,
+    "notes":  "Adds batch generation controls with fixed, incrementing, or random seed modes, and exposes HeartMuLa seed control for repeatable music tests."
 }
