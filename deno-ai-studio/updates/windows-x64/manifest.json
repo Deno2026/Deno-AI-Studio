@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.37",
+    "version":  "0.1.38",
     "channel":  "stable",
-    "publishedAt":  "2026-05-03T10:09:13.7401207Z",
-    "installerFileName":  "Deno AI Studio Setup 0.1.37.exe",
-    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.37.exe",
-    "sha256":  "1f631925b3998ee4834ceab75fe96a054c2be35e21bc31107dba27b9e98f2676",
-    "size":  94268870,
-    "notes":  "Hardens installed-model detection. The launcher now records each model's real install path and validates saved paths plus all known workspace locations at startup, preventing downloaded models from appearing uninstalled after updates or custom install-path changes."
+    "publishedAt":  "2026-05-04T05:28:46.4079646Z",
+    "installerFileName":  "Deno AI Studio Setup 0.1.38.exe",
+    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.38.exe",
+    "sha256":  "24785fc7eaf9caf51abd10bcfd5d1c43dc40240776045c0b00d5f5d85d98f5ce",
+    "size":  94273700,
+    "notes":  "Adds HeartMuLa-specific auto fade-out defaults and a v3 Tips guide next to Run, based on 90+ practical music QA experiments. HeartMuLa songs now fade the ending by default while keeping an option to disable the post-process."
 }
