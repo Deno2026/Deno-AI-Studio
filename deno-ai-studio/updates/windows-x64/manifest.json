@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.38",
+    "version":  "0.1.39",
     "channel":  "stable",
-    "publishedAt":  "2026-05-04T05:28:46.4079646Z",
-    "installerFileName":  "Deno AI Studio Setup 0.1.38.exe",
-    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.38.exe",
-    "sha256":  "24785fc7eaf9caf51abd10bcfd5d1c43dc40240776045c0b00d5f5d85d98f5ce",
-    "size":  94273700,
-    "notes":  "Adds HeartMuLa-specific auto fade-out defaults and a v3 Tips guide next to Run, based on 90+ practical music QA experiments. HeartMuLa songs now fade the ending by default while keeping an option to disable the post-process."
+    "publishedAt":  "2026-05-04T21:56:41.9806346Z",
+    "installerFileName":  "Deno AI Studio Setup 0.1.39.exe",
+    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.39.exe",
+    "sha256":  "9e0abaa01857fa1196f6892e7a6c61b1b4a42fd6934f9fda5067fc9442609758",
+    "size":  94274761,
+    "notes":  "Adds a step-by-step Hugging Face token guide with direct token/model page links, and improves the HeartMuLa Tips modal so long tag examples wrap safely and recommended time values are shown in seconds."
 }
