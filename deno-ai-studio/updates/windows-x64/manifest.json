@@ -1,10 +1,10 @@
 {
-  "version": "0.1.42",
+  "version": "0.1.56",
   "channel": "stable",
-  "publishedAt": "2026-05-06T00:55:31.201Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.42.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.42.exe",
-  "sha256": "17f761de91efaa5ec7f526f3233f093fa7beb534ebbdeda271d6e9d619129dad",
-  "size": 94291583,
-  "notes": "Adds ACE-Step 1.5 XL SFT high-quality mode and XL Turbo fast draft mode, and fixes prompt-to-song LM cache detection for the official 4B LM path."
+  "publishedAt": "2026-05-13T21:55:16.934Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.56.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.56.exe",
+  "sha256": "695d1236bcb3838f365aa76df39d044bb7ed42f891709b70eebd345f959f4f0c",
+  "size": 94304914,
+  "notes": "Adds compact model execution UI, right-side seed and queue controls, low-friction runtime guidance, and keeps Ubuntu optional instead of a hard requirement."
 }
