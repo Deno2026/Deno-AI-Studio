@@ -1,10 +1,10 @@
 {
-  "version": "0.1.58",
+  "version": "0.1.59",
   "channel": "stable",
-  "publishedAt": "2026-05-14T14:01:20.660Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.58.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.58.exe",
-  "sha256": "a58f5eb16cac8049a49aa5359f547e7d029d780719bebb23a811974baa47c80e",
-  "size": 94305899,
-  "notes": "Narrows Qwen3-TTS smoke tests to the shortest stable preset voice payload after real 1.7B install validation, so the built-in test run produces a WAV instead of hitting the official CustomVoice EOS failure."
+  "publishedAt": "2026-05-14T21:03:01.498Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.59.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.59.exe",
+  "sha256": "50716114c599883d2e322c5257c19bcbf583e955e503ac96fad6672db72a5f89",
+  "size": 94306510,
+  "notes": "Adds global audio tail padding for saved audio outputs across TTS, audio, and music adapters so generated files keep a short safety silence at the end."
 }
