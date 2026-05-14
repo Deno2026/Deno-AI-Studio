@@ -1,10 +1,10 @@
 {
-  "version": "0.1.56",
+  "version": "0.1.57",
   "channel": "stable",
-  "publishedAt": "2026-05-13T21:55:16.934Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.56.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.56.exe",
-  "sha256": "695d1236bcb3838f365aa76df39d044bb7ed42f891709b70eebd345f959f4f0c",
-  "size": 94304914,
-  "notes": "Adds compact model execution UI, right-side seed and queue controls, low-friction runtime guidance, and keeps Ubuntu optional instead of a hard requirement."
+  "publishedAt": "2026-05-14T10:28:38.503Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.57.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.57.exe",
+  "sha256": "1015fb54f2823142c2987e9055c99285550498980f40c0c545586f8196767668",
+  "size": 94305832,
+  "notes": "Hotfixes Qwen install startup by bounding Docker/WSL preflight checks and showing the preflight stage before model setup begins."
 }
