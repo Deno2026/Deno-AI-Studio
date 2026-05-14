@@ -1,10 +1,10 @@
 {
-  "version": "0.1.57",
+  "version": "0.1.58",
   "channel": "stable",
-  "publishedAt": "2026-05-14T10:28:38.503Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.57.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.57.exe",
-  "sha256": "1015fb54f2823142c2987e9055c99285550498980f40c0c545586f8196767668",
-  "size": 94305832,
-  "notes": "Hotfixes Qwen install startup by bounding Docker/WSL preflight checks and showing the preflight stage before model setup begins."
+  "publishedAt": "2026-05-14T14:01:20.660Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.58.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.58.exe",
+  "sha256": "a58f5eb16cac8049a49aa5359f547e7d029d780719bebb23a811974baa47c80e",
+  "size": 94305899,
+  "notes": "Narrows Qwen3-TTS smoke tests to the shortest stable preset voice payload after real 1.7B install validation, so the built-in test run produces a WAV instead of hitting the official CustomVoice EOS failure."
 }
