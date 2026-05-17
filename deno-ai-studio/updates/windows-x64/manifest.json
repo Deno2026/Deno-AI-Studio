@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.61",
+    "version":  "0.1.62",
     "channel":  "stable",
-    "publishedAt":  "2026-05-17T15:38:55.8906358Z",
-    "installerFileName":  "Deno AI Studio Setup 0.1.61.exe",
-    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.61.exe",
-    "sha256":  "c17383d28703c75bef6772c45b82488e139f06367360916ce61ffa9b31e986c3",
-    "size":  94692957,
-    "notes":  "Adds the DENO green circuit brand refresh, replaces the app/installer icon, and ships the compact non-sticky run console log layout."
+    "publishedAt":  "2026-05-17T17:11:00.6308992Z",
+    "installerFileName":  "Deno AI Studio Setup 0.1.62.exe",
+    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.62.exe",
+    "sha256":  "ae3aa1c5d8a1bc86ec07c001070e3e1301818d2dcebde3412911e832d8de6435",
+    "size":  94693001,
+    "notes":  "Softens the DENO green UI refresh so catalog, buttons, progress bars, drag states, and modal glows are easier on the eyes while keeping the DENO brand direction."
 }
