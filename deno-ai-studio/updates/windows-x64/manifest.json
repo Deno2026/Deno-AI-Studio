@@ -1,10 +1,10 @@
 {
-  "version": "0.1.60",
-  "channel": "stable",
-  "publishedAt": "2026-05-15T02:09:06.236Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.60.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.60.exe",
-  "sha256": "eeb6bbbdd46039d72f222e2ceab4a19b9b60a899f2cf7e087eb3d27f9b89d6e7",
-  "size": 94306763,
-  "notes": "Fixes Qwen3-TTS 0.6B smoke generation producing near-silent audio, adds a guard against saving near-silent Qwen outputs, and confirms all 8 audio smoke profiles passed with global tail padding."
+    "version":  "0.1.61",
+    "channel":  "stable",
+    "publishedAt":  "2026-05-17T15:38:55.8906358Z",
+    "installerFileName":  "Deno AI Studio Setup 0.1.61.exe",
+    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.61.exe",
+    "sha256":  "c17383d28703c75bef6772c45b82488e139f06367360916ce61ffa9b31e986c3",
+    "size":  94692957,
+    "notes":  "Adds the DENO green circuit brand refresh, replaces the app/installer icon, and ships the compact non-sticky run console log layout."
 }
