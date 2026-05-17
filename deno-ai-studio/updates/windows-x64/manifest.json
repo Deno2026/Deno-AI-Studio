@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.62",
+    "version":  "0.1.63",
     "channel":  "stable",
-    "publishedAt":  "2026-05-17T17:11:00.6308992Z",
-    "installerFileName":  "Deno AI Studio Setup 0.1.62.exe",
-    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.62.exe",
-    "sha256":  "ae3aa1c5d8a1bc86ec07c001070e3e1301818d2dcebde3412911e832d8de6435",
-    "size":  94693001,
-    "notes":  "Softens the DENO green UI refresh so catalog, buttons, progress bars, drag states, and modal glows are easier on the eyes while keeping the DENO brand direction."
+    "publishedAt":  "2026-05-17T17:34:57.9487232Z",
+    "installerFileName":  "Deno AI Studio Setup 0.1.63.exe",
+    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.63.exe",
+    "sha256":  "148de7ef14bb2dfcb4f4ea98c655512d0b097f741f06e8a8cd0c0049a51ec9d0",
+    "size":  94693568,
+    "notes":  "Fixes installed-model detection when Docker Desktop is not running: models with local install evidence now show as check-needed instead of uninstalled, stay visible in installed/cleanup views, and guide users to refresh after Docker starts."
 }
