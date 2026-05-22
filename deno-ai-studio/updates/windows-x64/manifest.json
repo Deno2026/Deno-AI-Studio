@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.63",
-    "channel":  "stable",
-    "publishedAt":  "2026-05-17T17:34:57.9487232Z",
-    "installerFileName":  "Deno AI Studio Setup 0.1.63.exe",
-    "installerUrl":  "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.63.exe",
-    "sha256":  "148de7ef14bb2dfcb4f4ea98c655512d0b097f741f06e8a8cd0c0049a51ec9d0",
-    "size":  94693568,
-    "notes":  "Fixes installed-model detection when Docker Desktop is not running: models with local install evidence now show as check-needed instead of uninstalled, stay visible in installed/cleanup views, and guide users to refresh after Docker starts."
+  "version": "0.1.64",
+  "channel": "stable",
+  "publishedAt": "2026-05-22T15:36:01.5552624Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.64.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.64.exe",
+  "sha256": "0422873c0dc529d76112904ae277b0b329b75b44fdccfc142114bb3e40462af1",
+  "size": 94694631,
+  "notes": "Starts Docker Desktop automatically when Deno AI Studio launches or when install preflight needs Docker. The UI now shows Docker startup progress and refreshes status while the engine loads."
 }
