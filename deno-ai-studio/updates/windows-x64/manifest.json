@@ -1,10 +1,10 @@
 {
-  "version": "0.1.64",
+  "version": "0.1.65",
   "channel": "stable",
-  "publishedAt": "2026-05-22T15:36:01.5552624Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.64.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.64.exe",
-  "sha256": "0422873c0dc529d76112904ae277b0b329b75b44fdccfc142114bb3e40462af1",
-  "size": 94694631,
-  "notes": "Starts Docker Desktop automatically when Deno AI Studio launches or when install preflight needs Docker. The UI now shows Docker startup progress and refreshes status while the engine loads."
+  "publishedAt": "2026-05-23T19:57:50.5239598Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.65.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.65.exe",
+  "sha256": "abee3a602cd46874fbeaff23d45957af2e726a51d896394bbfa109df9b94e30a",
+  "size": 94713436,
+  "notes": "Adds Spanish (Latin America, es-419) translation across the launcher UI, settings, project forms, and per-model field help. Fixes missing Scenema Audio project text that was falling back to Korean. Tightens catalog hero, header titles, and the settings/cleanup page copy."
 }
