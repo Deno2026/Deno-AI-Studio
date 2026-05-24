@@ -1,10 +1,10 @@
 {
-  "version": "0.1.68",
+  "version": "0.1.69",
   "channel": "stable",
-  "publishedAt": "2026-05-24T02:32:23.0821531Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.68.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.68.exe",
-  "sha256": "81e1616a8abec5f8e151fe6cf1280f34b79840b17287d4e22d2f819bcf66c6d8",
-  "size": 94717460,
-  "notes": "Keeps startup bootstrap checks bounded so slow Docker image checks or large local model folders cannot trap the launcher on the loading screen."
+  "publishedAt": "2026-05-24T06:58:40.3530810Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.69.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.69.exe",
+  "sha256": "e548a984817719108a0ec842079d2573cbd62933f70df47f0764c51017bb65b5",
+  "size": 94717802,
+  "notes": "Polishes the language selector into a larger opaque flyout and fixes its stacking so model cards cannot overlap the menu."
 }
