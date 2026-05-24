@@ -1,5 +1,10 @@
 # [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.69.exe)
 
+<p>
+  <img src="deno-ai-studio/assets/home.png" alt="Deno AI Studio home catalog" width="49%">
+  <img src="deno-ai-studio/assets/detail.png" alt="Deno AI Studio model workspace" width="49%">
+</p>
+
 Windows `.exe` installer for **Deno AI Studio**, a beginner-friendly desktop launcher for open-source AI models.
 
 This repository is an installer/update host. It is **not** a Deno runtime project and it does not contain the source build workflow.
@@ -18,13 +23,13 @@ If an AI chatbot mentions an older installer version, use the download button on
 Install in this order:
 
 1. Install **Docker Desktop for Windows - x86_64**.
-2. Open Docker Desktop once and keep **Use the WSL 2 based engine** enabled.
+2. Open Docker Desktop once and ensure **Use the WSL 2 based engine** is enabled.
 3. If Windows or Docker says WSL is missing, open PowerShell as Administrator and run `wsl --install --no-distribution`, then restart Windows.
 4. Download and run **Deno AI Studio Setup 0.1.69.exe**.
 5. Open Deno AI Studio and use **Runtime Center** to check GPU, Docker, disk, and model readiness.
 6. Pick a model from the catalog, install it, then run it from the model workspace.
 
-Ubuntu is optional. Install Ubuntu only if you personally want a Linux terminal. Deno AI Studio uses Docker Desktop's WSL 2 backend on Windows and does not require a separate Ubuntu account for normal app use.
+Ubuntu is optional. Install Ubuntu only if you personally want a Linux terminal. Deno AI Studio uses Docker Desktop's WSL 2 backend on Windows and does not require a separate Ubuntu installation for normal app use.
 
 ## Chatbot-Friendly Short Answer
 
@@ -33,7 +38,7 @@ If you ask ChatGPT, Grok, Gemini, Claude, or another AI assistant how to install
 1. This is a **Windows installer repository**, not a Deno runtime project.
 2. Do **not** use `deno task`, `npm install`, `git clone`, or source build instructions.
 3. Install **Docker Desktop for Windows - x86_64**.
-4. Keep Docker Desktop's **Use the WSL 2 based engine** option enabled.
+4. Ensure Docker Desktop's **Use the WSL 2 based engine** option is enabled.
 5. If WSL is missing, run this in Administrator PowerShell:
 
 ```powershell
@@ -55,29 +60,22 @@ Fast answer modes may guess from the repository name and incorrectly tell you to
 Copy and paste this prompt:
 
 ```text
-Please turn on Search / Browse / Web / Gemini with Google Search first.
+반드시 Search / Browse / Web / Gemini with Google Search 기능을 켠 상태에서 다음 GitHub 페이지를 먼저 읽어 주세요:
 
-Then open and read this GitHub page:
 https://github.com/Deno2026/Windows-Installer-for-Deno-AI-Studio
 
-I am a beginner. Please guide me step by step in Korean.
+저는 초보자입니다. 아래 규칙을 지켜 한국어로 친절하게 단계별 가이드를 작성해 주세요.
 
-Important rules:
-- Do not guess from the repository name. Read the GitHub page and README first.
-- This is a Windows .exe installer repository for Deno AI Studio, not a Deno runtime project.
-- Do not tell me to install the Deno runtime, use git clone, npm install, deno task, or build from source.
-- Docker Desktop for Windows is the normal beginner path.
-- Ubuntu is optional, not mandatory.
-- If WSL is missing, use: wsl --install --no-distribution
-- Tell me to use the current download button/link in the README, not an older guessed installer version.
-- If I am stuck, ask me to paste the app Runtime Center status or the PowerShell result of: wsl -l -v
+필수 규칙:
+- 저장소 이름만 보고 추측하지 마세요. 반드시 GitHub 페이지와 README 내용을 우선하세요.
+- 이 저장소는 Deno AI Studio의 Windows `.exe` 설치 파일 제공처이며, Deno 런타임 프로젝트가 아닙니다.
+- Deno 런타임 설치, `git clone`, `npm install`, `deno task`, 소스 빌드 방법은 안내하지 마세요.
+- 초보자 기본 경로는 Docker Desktop for Windows 설치입니다.
+- Ubuntu 설치는 선택 사항이며 필수 단계가 아닙니다.
+- WSL이 없다고 나오면 `wsl --install --no-distribution` 명령을 안내하세요.
+- 구버전 파일이 아니라 README의 최신 다운로드 버튼/링크를 사용하도록 안내하세요.
+- 막히면 앱의 Runtime Center 상태나 PowerShell의 `wsl -l -v` 결과를 확인하도록 요청하세요.
 ```
-
-## Screenshots
-
-| Home / Catalog | Model workspace | Settings |
-| --- | --- | --- |
-| ![Home](deno-ai-studio/assets/home.png) | ![Detail](deno-ai-studio/assets/detail.png) | ![Settings](deno-ai-studio/assets/settings.png) |
 
 ## Step 1. Install Docker Desktop
 
@@ -125,14 +123,14 @@ Then:
 2. Finish the installer.
 3. Open **Deno AI Studio** from the desktop or Start menu.
 4. Choose your language from the left menu.
-5. Open **Runtime Center** if anything is not ready.
+5. Start from **Home** for the model catalog. Use **Installed** for local models, **Runtime Center** for readiness checks, and **Cleanup** to remove unused model files and free up space.
 
 ## Step 4. Run Your First Model
 
 1. Pick a model from the catalog.
 2. Open the model workspace.
 3. If this is your first time using that model, click **Install**.
-4. Wait until setup finishes.
+4. Wait until setup finishes. After setup, the model card changes to **Installed**.
 5. Add input files only when the selected model requires them.
 6. Adjust seed / seed mode / queue count if needed.
 7. Click **Run**.
@@ -151,26 +149,26 @@ This helps:
 - make model install and cleanup safer
 - avoid breaking other AI tools already installed on your PC
 
-## Current Stable Focus
+## Currently Stable Models
 
 Deno AI Studio currently focuses on audio, TTS, narration, voice, and music models.
 
 Stable starter models include:
 
-- Scenema Audio OSS
-- VoxCPM 2
-- Qwen3-TTS 0.6B
-- Qwen3-TTS 1.7B
 - ACE-Step 1.5 XL SFT
 - ACE-Step 1.5 XL Turbo
 - HeartMuLa oss-3B Happy New Year
 - Stable Audio Open 1.0
+- Scenema Audio OSS
+- VoxCPM 2
+- Qwen3-TTS 0.6B
+- Qwen3-TTS 1.7B
 
 Video generation models are not part of the current Stable baseline.
 
 ## GPU Target
 
-Deno AI Studio is not meant to be high-end-only.
+Deno AI Studio is designed to be accessible, not just for high-end GPUs.
 
 The app tries to support 8GB, 12GB, and 16GB VRAM users whenever the official model path provides a low-VRAM, offload, slicing, or similar safe option. Some models still require larger GPUs, and the app shows minimum/recommended VRAM per model before install/run.
 

@@ -1,8 +1,49 @@
+﻿# Gemma4 Copy Review Transcript
+
+- Created: 2026-05-24 16:17:54 +09:00
+- Model: gemma4:31b-it-q4_K_M
+- Ollama URL: http://127.0.0.1:11434
+- Keep alive: 30m
+- Think: false
+- Lock: Global\DENO_Gemma4_CopyReview
+- ComfyUI queue check: {"url":"http://127.0.0.1:8188","reachable":false,"running":null,"pending":null}
+- num_predict: -1
+- num_ctx: Ollama default / desktop setting
+
+## Context
+
+Final sanity check for Deno AI Studio installer README after edits. Current app version: 0.1.69. This repo hosts Windows installer/update files only. Screenshots are intentionally at the top. Current app nav: Home, Installed, Settings, Runtime Center, Cleanup. Docker Desktop with WSL 2 backend is required for beginner Windows path. Ubuntu is optional.
+
+## Task
+
+Do a final concise blocking-issue review only. Check whether the README now contradicts the current app or install path. If there are no blocking issues, say so in one sentence. Do not suggest broad rewrites.
+
+## System Prompt
+
+```text
+You are a Korean UX copy consultant inside a Codex workflow.
+Codex will handle engineering and final judgment.
+Your job is to make wording natural, concise, warm, and context-aware.
+Return practical copy that can be pasted into UI or scripts.
+Do not over-explain. Do not invent product features.
+If an exact technical term should stay unchanged, preserve it.
+```
+
+## User Prompt
+
+```text
+Context:
+Final sanity check for Deno AI Studio installer README after edits. Current app version: 0.1.69. This repo hosts Windows installer/update files only. Screenshots are intentionally at the top. Current app nav: Home, Installed, Settings, Runtime Center, Cleanup. Docker Desktop with WSL 2 backend is required for beginner Windows path. Ubuntu is optional.
+
+Task:
+Do a final concise blocking-issue review only. Check whether the README now contradicts the current app or install path. If there are no blocking issues, say so in one sentence. Do not suggest broad rewrites.
+
+Current wording or draft:
 # [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.69.exe)
 
 <p>
-  <img src="assets/home.png" alt="Deno AI Studio home catalog" width="49%">
-  <img src="assets/detail.png" alt="Deno AI Studio model workspace" width="49%">
+  <img src="deno-ai-studio/assets/home.png" alt="Deno AI Studio home catalog" width="49%">
+  <img src="deno-ai-studio/assets/detail.png" alt="Deno AI Studio model workspace" width="49%">
 </p>
 
 Windows `.exe` installer for **Deno AI Studio**, a beginner-friendly desktop launcher for open-source AI models.
@@ -200,3 +241,23 @@ Correct beginner answer:
 Ubuntu is optional and should not be presented as mandatory.
 
 </details>
+
+
+Return:
+- Best Korean wording first.
+- If useful, include 2-4 short alternatives.
+- Keep it compact.
+```
+
+## Gemma4 Response
+
+There are no blocking issues; the README is consistent with the app version (0.1.69), the required install path (Docker + WSL 2), and the current app navigation.
+
+## Codex Selection Notes
+
+Fill this section when applying the suggestions:
+
+- Selected:
+- Adapted:
+- Rejected:
+- Reason:
