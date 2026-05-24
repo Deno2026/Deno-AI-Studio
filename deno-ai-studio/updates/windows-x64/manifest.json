@@ -1,10 +1,10 @@
 {
-  "version": "0.1.66",
+  "version": "0.1.67",
   "channel": "stable",
-  "publishedAt": "2026-05-24T01:47:25.6341289Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.66.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.66.exe",
-  "sha256": "0c03f3e0f5688551e6e7c6c7c864cc28de0417f907e381fddbf6f038607d940d",
-  "size": 94717203,
-  "notes": "Reworks the model workspace run panel, hides advanced fields behind a clear toggle, organizes outputs under Output/<model>/<date>, improves quit-time VRAM cleanup, and adds final refresh feedback."
+  "publishedAt": "2026-05-24T02:19:22.0576512Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.67.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.67.exe",
+  "sha256": "bbebef728c882a4f14c841452845a55927c18a49ca005e7b287349df62c8a231",
+  "size": 94717113,
+  "notes": "Hotfixes startup rendering so the launcher shows a loading screen immediately instead of a black window while local model state initializes."
 }
