@@ -1,10 +1,10 @@
 {
-  "version": "0.1.65",
+  "version": "0.1.66",
   "channel": "stable",
-  "publishedAt": "2026-05-23T19:57:50.5239598Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.65.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.65.exe",
-  "sha256": "abee3a602cd46874fbeaff23d45957af2e726a51d896394bbfa109df9b94e30a",
-  "size": 94713436,
-  "notes": "Adds Spanish (Latin America, es-419) translation across the launcher UI, settings, project forms, and per-model field help. Fixes missing Scenema Audio project text that was falling back to Korean. Tightens catalog hero, header titles, and the settings/cleanup page copy."
+  "publishedAt": "2026-05-24T01:47:25.6341289Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.66.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.66.exe",
+  "sha256": "0c03f3e0f5688551e6e7c6c7c864cc28de0417f907e381fddbf6f038607d940d",
+  "size": 94717203,
+  "notes": "Reworks the model workspace run panel, hides advanced fields behind a clear toggle, organizes outputs under Output/<model>/<date>, improves quit-time VRAM cleanup, and adds final refresh feedback."
 }

@@ -1,1 +1,1 @@
-abee3a602cd46874fbeaff23d45957af2e726a51d896394bbfa109df9b94e30a  Deno AI Studio Setup 0.1.65.exe
+0c03f3e0f5688551e6e7c6c7c864cc28de0417f907e381fddbf6f038607d940d  Deno AI Studio Setup 0.1.66.exe
