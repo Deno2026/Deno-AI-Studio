@@ -1,8 +1,11 @@
 # [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.69.exe)
 
 <p>
-  <img src="deno-ai-studio/assets/home.png" alt="Deno AI Studio home catalog" width="49%">
+  <img src="deno-ai-studio/assets/home.png" alt="Deno AI Studio home catalog" width="100%">
+</p>
+<p>
   <img src="deno-ai-studio/assets/detail.png" alt="Deno AI Studio model workspace" width="49%">
+  <img src="deno-ai-studio/assets/settings.png" alt="Deno AI Studio settings" width="49%">
 </p>
 
 Windows `.exe` installer for **Deno AI Studio**, a beginner-friendly desktop launcher for open-source AI models.
