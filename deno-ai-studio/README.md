@@ -63,21 +63,25 @@ Fast answer modes may guess from the repository name and incorrectly tell you to
 Copy and paste this prompt:
 
 ```text
-반드시 Search / Browse / Web / Gemini with Google Search 기능을 켠 상태에서 다음 GitHub 페이지를 먼저 읽어 주세요:
+Please enable Search / Browse / Web / Gemini with Google Search before answering.
+
+Then open and read this GitHub page first:
 
 https://github.com/Deno2026/Windows-Installer-for-Deno-AI-Studio
 
-저는 초보자입니다. 아래 규칙을 지켜 한국어로 친절하게 단계별 가이드를 작성해 주세요.
+I am a beginner. Please give me a friendly step-by-step guide.
 
-필수 규칙:
-- 저장소 이름만 보고 추측하지 마세요. 반드시 GitHub 페이지와 README 내용을 우선하세요.
-- 이 저장소는 Deno AI Studio의 Windows `.exe` 설치 파일 제공처이며, Deno 런타임 프로젝트가 아닙니다.
-- Deno 런타임 설치, `git clone`, `npm install`, `deno task`, 소스 빌드 방법은 안내하지 마세요.
-- 초보자 기본 경로는 Docker Desktop for Windows 설치입니다.
-- Ubuntu 설치는 선택 사항이며 필수 단계가 아닙니다.
-- WSL이 없다고 나오면 `wsl --install --no-distribution` 명령을 안내하세요.
-- 구버전 파일이 아니라 README의 최신 다운로드 버튼/링크를 사용하도록 안내하세요.
-- 막히면 앱의 Runtime Center 상태나 PowerShell의 `wsl -l -v` 결과를 확인하도록 요청하세요.
+Answer in the user's native language. If the user's message is in Korean, answer in Korean.
+
+Required rules:
+- Do not guess from the repository name. Read the GitHub page and README first.
+- This repository provides the Windows `.exe` installer for Deno AI Studio. It is not a Deno runtime project.
+- Do not tell me to install the Deno runtime, use `git clone`, run `npm install`, run `deno task`, or build from source.
+- The normal beginner path is to install Docker Desktop for Windows.
+- Ubuntu is optional and is not a required step.
+- If Windows or Docker says WSL is missing, guide me to use `wsl --install --no-distribution`.
+- Tell me to use the latest download button/link in the README, not an older installer version guessed from memory.
+- If I get stuck, ask me to share the app's Runtime Center status or the PowerShell result of `wsl -l -v`.
 ```
 
 ## Step 1. Install Docker Desktop
