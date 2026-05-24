@@ -1,10 +1,10 @@
 {
-  "version": "0.1.67",
+  "version": "0.1.68",
   "channel": "stable",
-  "publishedAt": "2026-05-24T02:19:22.0576512Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.67.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.67.exe",
-  "sha256": "bbebef728c882a4f14c841452845a55927c18a49ca005e7b287349df62c8a231",
-  "size": 94717113,
-  "notes": "Hotfixes startup rendering so the launcher shows a loading screen immediately instead of a black window while local model state initializes."
+  "publishedAt": "2026-05-24T02:32:23.0821531Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.68.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.68.exe",
+  "sha256": "81e1616a8abec5f8e151fe6cf1280f34b79840b17287d4e22d2f819bcf66c6d8",
+  "size": 94717460,
+  "notes": "Keeps startup bootstrap checks bounded so slow Docker image checks or large local model folders cannot trap the launcher on the loading screen."
 }
