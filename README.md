@@ -1,4 +1,4 @@
-# [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.69.exe)
+# [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.70.exe)
 
 <p>
   <img src="deno-ai-studio/assets/home.png" alt="Deno AI Studio home catalog" width="100%">
@@ -12,14 +12,14 @@ Windows `.exe` installer for **Deno AI Studio**, a beginner-friendly desktop lau
 
 This repository is an installer/update host. It is **not** a Deno runtime project and it does not contain the source build workflow.
 
-Current installer: **Deno AI Studio Setup 0.1.69.exe**
+Current installer: **Deno AI Studio Setup 0.1.70.exe**
 
-Latest update: The language selector now opens as a larger opaque flyout, with corrected stacking so model cards cannot overlap it.
+Latest update: Qwen3-TTS now supports saved voice reuse and management, run cancellation, compact in-app completion alerts, immediate seed increment feedback, and improved Docker storage path detection.
 
 If an AI chatbot mentions an older installer version, use the download button on this page instead of the old version it guessed.
 
 [![STEP 1 Install Docker Desktop](https://img.shields.io/badge/STEP%201-Install%20Docker%20Desktop-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/desktop/setup/install/windows-install/)
-[![STEP 2 Download Windows Installer](https://img.shields.io/badge/STEP%202-Download%20Windows%20Installer%20(.exe)-16A34A?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.69.exe)
+[![STEP 2 Download Windows Installer](https://img.shields.io/badge/STEP%202-Download%20Windows%20Installer%20(.exe)-16A34A?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.70.exe)
 
 ## Start Here
 
@@ -28,7 +28,7 @@ Install in this order:
 1. Install **Docker Desktop for Windows - x86_64**.
 2. Open Docker Desktop once and ensure **Use the WSL 2 based engine** is enabled.
 3. If Windows or Docker says WSL is missing, open PowerShell as Administrator and run `wsl --install --no-distribution`, then restart Windows.
-4. Download and run **Deno AI Studio Setup 0.1.69.exe**.
+4. Download and run **Deno AI Studio Setup 0.1.70.exe**.
 5. Open Deno AI Studio and use **Runtime Center** to check GPU, Docker, disk, and model readiness.
 6. Pick a model from the catalog, install it, then run it from the model workspace.
 
@@ -130,11 +130,11 @@ Restart Windows if asked, then open Docker Desktop again.
 
 Download the Windows installer:
 
-[Download Deno AI Studio Setup 0.1.69.exe](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.69.exe)
+[Download Deno AI Studio Setup 0.1.70.exe](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.70.exe)
 
 Then:
 
-1. Run `Deno AI Studio Setup 0.1.69.exe`.
+1. Run `Deno AI Studio Setup 0.1.70.exe`.
 2. Finish the installer.
 3. Open **Deno AI Studio** from the desktop or Start menu.
 4. Choose your language from the left menu.
@@ -209,7 +209,7 @@ Correct beginner answer:
 1. Install Docker Desktop for Windows - x86_64.
 2. Keep Docker Desktop's WSL 2 backend enabled.
 3. If WSL is missing, run `wsl --install --no-distribution`.
-4. Download and run `Deno AI Studio Setup 0.1.69.exe`.
+4. Download and run `Deno AI Studio Setup 0.1.70.exe`.
 5. Open Deno AI Studio and check Runtime Center.
 
 Ubuntu is optional and should not be presented as mandatory.

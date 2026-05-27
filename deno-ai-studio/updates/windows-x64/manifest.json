@@ -1,10 +1,10 @@
 {
-  "version": "0.1.69",
+  "version": "0.1.70",
   "channel": "stable",
-  "publishedAt": "2026-05-24T06:58:40.3530810Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.69.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.69.exe",
-  "sha256": "e548a984817719108a0ec842079d2573cbd62933f70df47f0764c51017bb65b5",
-  "size": 94717802,
-  "notes": "Polishes the language selector into a larger opaque flyout and fixes its stacking so model cards cannot overlap the menu."
+  "publishedAt": "2026-05-27T14:38:55.8037528Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.70.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.70.exe",
+  "sha256": "65176f2e6eac1ef3075750502963578ea1e8c41543cbf2630d10f7a8c712676b",
+  "size": 94734443,
+  "notes": "Adds Qwen3-TTS saved voice reuse and management, run cancellation, compact in-app completion alerts, immediate seed increment feedback, and improved Docker storage path detection."
 }
