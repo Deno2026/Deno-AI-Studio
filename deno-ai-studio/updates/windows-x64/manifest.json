@@ -1,10 +1,10 @@
 {
-  "version": "0.1.70",
+  "version": "0.1.71",
   "channel": "stable",
-  "publishedAt": "2026-05-27T14:38:55.8037528Z",
-  "installerFileName": "Deno AI Studio Setup 0.1.70.exe",
-  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.70.exe",
-  "sha256": "65176f2e6eac1ef3075750502963578ea1e8c41543cbf2630d10f7a8c712676b",
-  "size": 94734443,
-  "notes": "Adds Qwen3-TTS saved voice reuse and management, run cancellation, compact in-app completion alerts, immediate seed increment feedback, and improved Docker storage path detection."
+  "publishedAt": "2026-05-29T08:38:00.4137557Z",
+  "installerFileName": "Deno AI Studio Setup 0.1.71.exe",
+  "installerUrl": "https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.71.exe",
+  "sha256": "ef3ad620659fcf2dca4b753b405b6356e607ec929a238ca061e63620e06f56eb",
+  "size": 94741874,
+  "notes": "Adds Stable Audio 3.0 Medium and a guided Hugging Face access/token flow for gated model downloads."
 }
