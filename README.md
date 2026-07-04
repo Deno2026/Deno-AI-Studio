@@ -216,3 +216,7 @@ Correct beginner answer:
 Ubuntu is optional and should not be presented as mandatory.
 
 </details>
+
+## License
+
+DENO-owned files in this installer/update repository are released under [GNU GPL v3.0](LICENSE) (`GPL-3.0-only`). Third-party tools, model providers, Docker, Windows components, hosted services, and bundled dependencies keep their own licenses and terms.
