@@ -1,38 +1,53 @@
-# [Deno AI Studio](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.71.exe)
+# Deno AI Studio
 
-<p>
-  <img src="deno-ai-studio/assets/home.png" alt="Deno AI Studio home catalog" width="100%">
-</p>
-<p>
-  <img src="deno-ai-studio/assets/detail.png" alt="Deno AI Studio model workspace" width="49%">
-  <img src="deno-ai-studio/assets/settings.png" alt="Deno AI Studio settings" width="49%">
-</p>
+A beginner-friendly Windows desktop launcher for installing and running open-source audio, speech, narration, and music models in isolated Docker workspaces.
 
-Windows `.exe` installer for **Deno AI Studio**, a beginner-friendly desktop launcher for open-source AI models.
+**Current Windows installer: v0.1.71**
 
-This repository is an installer/update host. It is **not** a Deno runtime project and it does not contain the source build workflow.
-
-Current installer: **Deno AI Studio Setup 0.1.71.exe**
-
-Latest update: Stable Audio 3.0 Medium has been added, and gated Hugging Face models now show an easier access/token guide inside the app.
-
-If an AI chatbot mentions an older installer version, use the download button on this page instead of the old version it guessed.
+This version adds Stable Audio 3.0 Medium and clearer access guidance for gated Hugging Face models.
 
 [![STEP 1 Install Docker Desktop](https://img.shields.io/badge/STEP%201-Install%20Docker%20Desktop-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/desktop/setup/install/windows-install/)
 [![STEP 2 Download Windows Installer](https://img.shields.io/badge/STEP%202-Download%20Windows%20Installer%20(.exe)-16A34A?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Deno2026/Windows-Installer-for-Deno-AI-Studio/main/deno-ai-studio/updates/windows-x64/Deno%20AI%20Studio%20Setup%200.1.71.exe)
 
+[Verify the SHA-256 checksum](deno-ai-studio/updates/windows-x64/sha256.txt) · [View the update manifest](deno-ai-studio/updates/windows-x64/manifest.json)
+
+This repository hosts the official Windows installer and update files. It is not a source-build or Deno runtime repository.
+
 ## Start Here
 
-Install in this order:
+1. Install **Docker Desktop for Windows - x86_64**, open it once, and keep **Use the WSL 2 based engine** enabled.
+2. Download and run **Deno AI Studio Setup 0.1.71.exe**.
+3. Open Deno AI Studio, check **Runtime Center**, then choose a model from **Home** to install and run it.
 
-1. Install **Docker Desktop for Windows - x86_64**.
-2. Open Docker Desktop once and ensure **Use the WSL 2 based engine** is enabled.
-3. If Windows or Docker says WSL is missing, open PowerShell as Administrator and run `wsl --install --no-distribution`, then restart Windows.
-4. Download and run **Deno AI Studio Setup 0.1.71.exe**.
-5. Open Deno AI Studio and use **Runtime Center** to check GPU, Docker, disk, and model readiness.
-6. Pick a model from the catalog, install it, then run it from the model workspace.
+If Windows or Docker says WSL is missing, open PowerShell as Administrator, run `wsl --install --no-distribution`, and restart Windows when asked.
 
 Ubuntu is optional. Install Ubuntu only if you personally want a Linux terminal. Deno AI Studio uses Docker Desktop's WSL 2 backend on Windows and does not require a separate Ubuntu installation for normal app use.
+
+## Inside Deno AI Studio
+
+### 1. Home
+
+Browse the current stable model catalog and see the selected model's requirements before installing it.
+
+<p>
+  <img src="deno-ai-studio/assets/home.png" alt="Deno AI Studio v0.1.71 Home model catalog" width="100%">
+</p>
+
+### 2. Runtime Center
+
+Check GPU, Docker, storage, and model readiness in one place before you start a run.
+
+<p>
+  <img src="deno-ai-studio/assets/detail.png" alt="Deno AI Studio v0.1.71 Runtime Center" width="100%">
+</p>
+
+### 3. Settings
+
+Set launcher-wide defaults, including the short ending tail used by supported audio models.
+
+<p>
+  <img src="deno-ai-studio/assets/settings.png" alt="Deno AI Studio v0.1.71 Settings" width="100%">
+</p>
 
 ## Chatbot-Friendly Short Answer
 
